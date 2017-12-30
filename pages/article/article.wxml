@@ -1,0 +1,14 @@
+<!--pages/article/article.wxml-->
+<view>
+  <view>
+    <text class = "title">{{title}}</text>
+  </view>
+  <view>
+    <text class = "content">{{content}}</text>
+  </view>
+  <view>
+    <button class = "userbuttonleft" bindtap='leftClick'>{{btnLeft}}</button>
+    <button class = "userbuttonright" bindtap='rightClick'>{{btnRight}}</button>
+    <button class = "userindex" bindtap='indexClick' size = "min" plain="true">返回主页</button>
+  </view>
+</view>
