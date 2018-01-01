@@ -1,0 +1,4 @@
+/* pages/parse/parse.wxss */
+.leftbtn {
+    margin-top: 50px;
+}
